@@ -59,3 +59,8 @@ a:hover { text-decoration: underline; }
 blockquote { margin: 10px 0; padding: 2px 20px; font-family: "EB Garamond", serif; background: rgba(0,0,0,0.2); color: #222; }
 
 pre { padding: 6px 20px; color: #aaa; background: #212; overflow: auto; }
+
+#prevnext { margin-bottom: 50px; }
+#prevnext .prev { float: left; }
+#prevnext .next { text-align: right; }
+.clear { clear: both; }
