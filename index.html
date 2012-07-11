@@ -1,0 +1,11 @@
+---
+layout: default
+title: Tales from EqBeats
+---
+
+{% for post in site.posts limit:6 %}
+<div class="post">
+    {% include post_header.html %}
+    <div class="postbody">{{ post.content }}</div>
+</div>
+{% endfor %}

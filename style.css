@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Telex|EB+Garamond);
+
+body { background: #ddd; color: #444344; margin: 0; font-family: Telex, sans-serif; }
+
+p { text-align: justify; }
+
+a { color: #551155; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+#header {
+    background: #626;
+    background: url("/header.png") no-repeat #626;
+    background-position: 5% top;
+    padding: 10px 100px;
+    border-bottom: 3px solid #404;
+}
+#header a { color: #ddd; text-shadow: 0 1px 0 #404; }
+#header h4 {
+    color: #404;
+    text-align: right;
+    -moz-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    margin-left: 100px;
+}
+
+#wrapper { max-width: 900px; margin: 0 auto; }
+#sidebar {
+    float: left;
+    width: 200px;
+    font-size: 0.8em;
+    padding: 0;
+    margin-left: 15px;
+}
+#sidebar h4 {
+    margin-top: 5px;
+}
+#sidebar #postlist {
+    list-style-type: none;
+    padding-left: 30px;
+    margin: 5px 0;
+}
+/*#sidebar #postlist a:before {
+    content: " ";
+}*/
+#sidebar #postlist li {
+    margin-bottom: 6px;
+}
+
+#content { margin-left: 250px; margin-right: 15px; }
+
+.post { margin:  30px 0 60px 0; }
+.post h2 { display: inline; }
+.meta { display: inline; margin-left: 6px; font-size: 0.7em; color: #767; }
+/*.date:before { content: url("/clock.png"); margin-right: 3px; }*/
+/*.postbody { text-align: justify; }*/
+
+blockquote { margin: 10px 0; padding: 2px 20px; font-family: "EB Garamond", serif; background: rgba(0,0,0,0.2); color: #222; }
+
+pre { padding: 6px 20px; color: #aaa; background: #212; overflow: auto; }
