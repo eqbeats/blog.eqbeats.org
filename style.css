@@ -26,6 +26,7 @@ a:hover { text-decoration: underline; }
 }
 
 #wrapper { max-width: 900px; margin: 0 auto; }
+
 #sidebar {
     float: left;
     width: 200px;
@@ -33,17 +34,17 @@ a:hover { text-decoration: underline; }
     padding: 0;
     margin-left: 15px;
 }
+
 #sidebar h4 {
     margin-top: 5px;
 }
+
 #sidebar #postlist {
     list-style-type: none;
     padding-left: 30px;
     margin: 5px 0;
 }
-/*#sidebar #postlist a:before {
-    content: " ";
-}*/
+
 #sidebar #postlist li {
     margin-bottom: 6px;
 }
@@ -53,8 +54,6 @@ a:hover { text-decoration: underline; }
 .post { margin:  30px 0 60px 0; }
 .post h2 { display: inline; }
 .meta { display: inline; margin-left: 6px; font-size: 0.7em; color: #767; }
-/*.date:before { content: url("/clock.png"); margin-right: 3px; }*/
-/*.postbody { text-align: justify; }*/
 
 blockquote { margin: 10px 0; padding: 2px 20px; font-family: "EB Garamond", serif; background: rgba(0,0,0,0.2); color: #222; }
 
