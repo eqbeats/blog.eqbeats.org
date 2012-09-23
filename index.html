@@ -3,9 +3,24 @@ layout: default
 title: Tales from EqBeats
 ---
 
-{% for post in site.posts limit:6 %}
+{% for post in paginator.posts %}
 <div class="post">
     {% include post_header.html %}
     <div class="postbody">{{ post.content }}</div>
 </div>
 {% endfor %}
+
+<div id="prevnext">
+    {% if paginator.previous_page %}
+        {% if paginator.previous_page != 1 %}
+        <div class="prev"><a href="/page{{paginator.previous_page}}">&laquo; Newer posts</a></div>
+        {% else %}
+        <div class="prev"><a href="/">&laquo; Newer posts</a></div>
+        {% endif %}
+    {% endif %}
+    {% if paginator.next_page %}
+    <div class="next"><a href="/page{{paginator.next_page}}">Older posts &raquo;</a></div>
+    {% endif %}
+
+    <div class="clear"></div>
+</div>
