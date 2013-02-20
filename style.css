@@ -53,7 +53,7 @@ a:hover { text-decoration: underline; }
 
 .post { margin:  30px 0 60px 0; }
 .post h2 { display: inline; }
-.post img { text-align: center; }
+.post img { text-align: center; margin: 0 auto; display: block; }
 .meta { display: inline; margin-left: 6px; font-size: 0.7em; color: #767; }
 
 blockquote { margin: 10px 0; padding: 2px 20px; font-family: "EB Garamond", serif; background: rgba(0,0,0,0.2); color: #222; }
