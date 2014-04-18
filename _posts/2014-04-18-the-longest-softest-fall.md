@@ -15,7 +15,7 @@ Development was quick, popularity was rising massively and a handful of big
 names eventually came to trust us, bringing with them a constant flow of users.
 All in all, a pretty successful start.
 
-[jan2012](http://web.archive.org/web/20120107160410/http://eqbeats.org/)
+[jan2012]:http://web.archive.org/web/20120107160410/http://eqbeats.org/
 
 ------
 
@@ -44,5 +44,5 @@ to come chat with us in [#eqbeats on irc.ponychat.net][irc] [(webchat)][] or hit
 us up at [contact@eqbeats.org](mailto:contact@eqbeats.org), we'll be happy to
 talk.
 
-[irc](ircs://irc.ponychat.net/#eqbeats)
-[(webchat)](http://iris.ponychat.net/?nick=pony_......&channels=eqbeats&prompt=1)
+[irc]:ircs://irc.ponychat.net/#eqbeats
+[(webchat)]:http://iris.ponychat.net/?nick=pony_......&channels=eqbeats&prompt=1
