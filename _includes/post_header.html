@@ -3,6 +3,5 @@
 {% if post.author != null %}
 by <span class="author">{{ post.author }}</span>
 {% endif %}
-on <span class="date">{{ post.date | date:"%B %d, %Y" }}</span> &mdash;
-<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}" class="comments">Comments</a>
+on <span class="date">{{ post.date | date:"%B %d, %Y" }}</span>
 </span>
